@@ -1,0 +1,403 @@
+
+/* CSS code for top of the main content section */
+
+
+* {
+	box-sizing: border-box;
+}
+
+
+header {
+    
+    padding: 40px
+}
+
+
+body {
+    
+    background-color: white;
+
+}
+
+
+.sectiontitlecontainer {
+    
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+
+    
+}
+
+.ridesectiontitle {
+    
+  background-color: #000080;
+  border-radius: 15px;
+  border: 2px solid #333333;
+  width: 1000px;
+  height: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: -2px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  
+
+
+}
+
+
+
+
+#RidesandAttractionsTitle {
+    
+
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-style: oblique;
+    letter-spacing: -1px;
+    background-image: url("attraction2pageimages/background2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+    color: white;
+    padding: 50px;
+    border: 2px solid black;
+    padding-bottom: 100px;
+   
+    
+    
+}
+
+.rides {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+    margin: 0 auto;
+    padding-left: 220px;
+    padding-right: 220px;
+    padding-bottom: 100px;
+    max-width: 1400px;
+    justify-content: space-between;
+    
+
+}
+
+
+.ride {
+  
+background: #E8E8E8;
+border: 1px solid #808080;
+box-shadow: 0 3px 6px 0 rgba(0, 0, 0, .3);
+
+
+
+    
+}
+
+
+
+
+
+.rideimage{
+    
+    object-fit: cover;
+    display: flex;
+    border: 3px solid #202020;
+}
+
+
+.ridedescription {
+    padding-left: 20px;
+    font-size: 14px;
+    color: black;
+    background: #E8E8E8;
+    font-family:  Arial, Helvetica, sans-serif;
+
+    
+
+    
+}
+
+
+.ridefooter {
+    
+    display: flex;
+    background: white;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    padding: 15px;
+    font-size: 15px;
+    font-family:  Arial, Helvetica, sans-serif;
+
+    
+}
+
+/*
+
+.h1title {
+    
+  font-family: Arial, Helveticta, serif;
+  font-weight: bold;
+  letter-spacing: -2.5px;
+    color: black;
+    background: #E8E8E8;
+    padding-left: 10px;
+
+
+}
+*/
+
+
+.TicketButton {
+  color: white;
+  cursor: pointer;
+  background: #0080FF;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 14px ;
+  padding-left: 14px;
+  border-radius: 5px;
+  border: none;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+
+    
+    
+}
+
+
+
+    
+    /*********************************************
+FOOTER STYLE - Erick Gonzalez
+*********************************************/
+
+/* This body tag makes looks nice my presentation 
+but it might clash with others, so keep an eye on this */
+body{
+	margin: 0;
+}
+
+footer{
+	background-color: #000080;
+	color: white;
+}
+/* Block containing all footer the cards */
+
+footer .container{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-evenly;
+}
+
+footer .container .block{
+	margin: 0px 40px 0px 20px;
+}
+
+footer a{
+	color: white;
+	text-decoration: none;
+}
+
+footer a:hover{
+	color: gray;
+}
+
+footer h3{
+	font-style: italic;
+	text-decoration: underline;
+}
+
+footer img{
+	
+	width:30px;
+	margin: 5px 0px;
+}
+
+/* Animation for Social Media Icons */
+footer img:hover{
+	animation-name: zoom;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+}
+
+@keyframes zoom{
+	from{width: 30px;}
+	to{width: 40px;}
+}
+
+footer #copyright{
+	text-align: center;
+	font-size: 12px;
+	padding: 20px;
+	margin:0
+}
+
+@media only screen and (max-width: 890px) {
+	footer .container {
+	  justify-content: unset;
+	}
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+
+
+.titles {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding: 0px;
+    color: Gold;
+    font-size: 20px;
+    font-family: playfair, Helveticta, serif;
+
+
+    
+}
+
+
+
+*/
+
+
+/*
+
+*/
+
+
+/*
+
+
+
+
+
+#AdultRide1 {
+    
+   display: flex;
+  flex-direction: column;
+  border: 1px black ;
+  padding: 10px;
+  margin: 0px;
+  border-radius: 25px;
+  align-items: flex-start;
+  background: white;
+  background: linear-gradient(to right bottom, rgba(255,255,255,0.7), rgba(255,255,255,0.3)
+  );
+  color: mediumblue;
+
+}
+
+
+#AdultRide2 {
+    
+   display: flex;
+  flex-direction: column;
+  border: 1px black ;
+  padding: 10px;
+  margin: 0px;
+  border-radius: 25px;
+  align-items: flex-start;
+  background: white;
+  background: linear-gradient(to right bottom, rgba(255,255,255,0.7), rgba(255,255,255,0.3)
+  );
+  color: mediumblue;
+
+}
+
+#AdultRide3 {
+    
+   display: flex;
+  flex-direction: column;
+  border: 1px black ;
+  padding: 10px;
+  margin: 0px;
+  border-radius: 25px;
+  align-items: flex-start;
+  background: white;
+  background: linear-gradient(to right bottom, rgba(255,255,255,0.7), rgba(255,255,255,0.3)
+  );
+  color: mediumblue;
+
+}
+
+
+
+
+
+
+
+
+#FamilyRide1 {
+    
+   display: flex;
+  flex-direction: column;
+  border: 1px black ;
+  padding: 10px;
+  margin: 0px;
+  border-radius: 25px;
+  align-items: flex-start;
+  background: white;
+  background: linear-gradient(to right bottom, rgba(255,255,255,0.7), rgba(255,255,255,0.3)
+  );
+  color: mediumblue;
+
+}
+
+
+#FamilyRide2 {
+    
+   display: flex;
+  flex-direction: column;
+  border: 1px black ;
+  padding: 10px;
+  margin: 0px;
+  border-radius: 25px;
+  align-items: flex-start;
+  background: white;
+  background: linear-gradient(to right bottom, rgba(255,255,255,0.7), rgba(255,255,255,0.3)
+  );
+  color: mediumblue;
+
+}
+
+#FamilyRide3 {
+    
+   display: flex;
+  flex-direction: column;
+  border: 1px black ;
+  padding: 10px;
+  margin: 0px;
+  border-radius: 25px;
+  align-items: flex-start;
+  background: white;
+  background: linear-gradient(to right bottom, rgba(255,255,255,0.7), rgba(255,255,255,0.3)
+  );
+  color: mediumblue;
+
+}
+
+
+*/
+
+
+
