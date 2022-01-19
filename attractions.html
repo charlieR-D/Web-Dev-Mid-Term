@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Attractions & Rides Page.">
-	<link rel="stylesheet" type="text/css" href="attractioncss2.css">
+	<link rel="stylesheet" type="text/css" href="attractions.css">
 	<title>Attractions Page</title>
 </head>
     
@@ -19,20 +19,26 @@
     
     <main>
         
+<!-- Main Title for the Page, seen below the header with a background  -->
         <div id = "RidesandAttractionsTitle">
         <h2>Rides & Attractions</h2>
         </div>
         
-       <div class = "sectiontitlecontainer"> 
-       <div class = "ridesectiontitle"> <h1>Children's Rides </h1></div> </div>
         
+        
+<!-- Title Container class   -  used to ensure each title for the different ride category can be positioned correctly       -->
+       <div class = "sectiontitlecontainer"> 
+<!--  Ride Title Class    -   used for each ride category title, (Children, Family and Adult Rides)-->
+       <div class = "ridesectiontitle"> <h1>Children's Rides </h1></div> </div>
+<!--   Children's Rides Section - There are 3 rides classes each contain 3 rides, allows the content to be positioned using flexbox     -->
        <div class = "rides">
             
             
-            
+<!--       First Ride - Carousel Ride     -->
+           
        <div class = "ride">
 
-            <img class = "rideimage" src = "attraction2pageimages/carousel.jpg" width = "300" height = "300" alt = "Girl on carousel ride">
+            <img class = "rideimage" src = "attractionspageimages/carousel.jpg" width = "300" height = "300" alt = "Girl on carousel ride">
             <div class = "ridedescription">
             <h2>Carousel</h2>
             <ul>
@@ -43,12 +49,16 @@
             
             </div>
             <div class = "ridefooter">
+<!-- Button Class for all the Buy Ticket Buttons               -->
             <button class="TicketButton">Buy Tickets</button> </div>
 
-            </div>       
+            </div> 
+           
+<!--       Second Ride - Bumper Cars Ride     -->
+           
        <div class = "ride">
 
-            <img class = "rideimage" src = "attraction2pageimages/bumpercars.jpg" width = "300" height = "300" alt = "Bumper cars ride with boy and man">
+            <img class = "rideimage" src = "attractionspageimages/bumpercars.jpg" width = "300" height = "300" alt = "Bumper cars ride with boy and man">
             <div class = "ridedescription">
             <h2>Bumper Cars</h2>
             <ul>
@@ -62,9 +72,12 @@
             <button class="TicketButton">Buy Tickets</button> </div>
 
             </div>
+
+<!--       Third Ride - Tea Cup  Ride     -->
+
        <div class = "ride">
 
-            <img class = "rideimage" src = "attraction2pageimages/teacups.jpg" width = "300" height = "300" alt = "Tea cup spinning ride">
+            <img class = "rideimage" src = "attractionspageimages/teacups.jpg" width = "300" height = "300" alt = "Tea cup spinning ride">
             <div class = "ridedescription">
             <h2>Tea Cups</h2>
             <ul>
@@ -80,15 +93,23 @@
             </div>
         </div> 
         
-      <div class = "sectiontitlecontainer"> 
+        
+        
+        
+        
+<!--Adults Rides Section-->
 
+      <div class = "sectiontitlecontainer"> 
           <div class = "ridesectiontitle"> <h1>Adult's Rides </h1></div></div> 
 
         
        <div class = "rides">  
+           
+<!--       First Ride - Haunted House     -->
+
        <div class = "ride">
 
-            <img class = "rideimage" src = "attraction2pageimages/hauntedhouse.jpg" width = "300" height = "300" alt = "A haunted house with a scary setting">
+            <img class = "rideimage" src = "attractionspageimages/hauntedhouse.jpg" width = "300" height = "300" alt = "A haunted house with a scary setting">
             <div class = "ridedescription">
             <h2>Haunted House</h2>
             <ul>
@@ -102,9 +123,13 @@
             <button class="TicketButton">Buy Tickets</button> </div>
 
             </div>
+           
+           
+<!--       Second Ride - Rollacoaster Supreme     -->
+
        <div class = "ride">
 
-            <img class = "rideimage" src = "attraction2pageimages/rollacoastersupreme.jpg" width = "300" height = "300" alt ="Large spiralling rollacoaster ride">
+            <img class = "rideimage" src = "attractionspageimages/rollacoastersupreme.jpg" width = "300" height = "300" alt ="Large spiralling rollacoaster ride">
             <div class = "ridedescription">
             <h2>Rollacoaster Supreme</h2>
             <ul>
@@ -118,9 +143,12 @@
             <button class="TicketButton">Buy Tickets</button> </div>
 
             </div>
+           
+<!--       Third Ride - The Drop Ride     -->
+
        <div class = "ride">
 
-            <img class = "rideimage" src = "attraction2pageimages/thedrop.jpg" width = "300" height = "300" alt = "Theme park ride that drops people from a very tall height suddenly">
+            <img class = "rideimage" src = "attractionspageimages/thedrop.jpg" width = "300" height = "300" alt = "Theme park ride that drops people from a very tall height suddenly">
             <div class = "ridedescription">
             <h2>The Drop</h2>
             <ul>
@@ -137,15 +165,25 @@
            
         </div>
         
+        
+        
+        
+        
+        <!--Family Rides Section-->
+
+        
        <div class = "sectiontitlecontainer"> 
 
            <div class = "ridesectiontitle"> <h1>Family Rides </h1></div> </div>
 
        <div class = "rides">
+           
+           
+<!--       First Ride - Ferris Wheel     -->
 
        <div class = "ride">
 
-            <img class = "rideimage" src = "attraction2pageimages/ferriswheel.jpg" width = "300" height = "300" alt = " large ferris wheel ride ">
+            <img class = "rideimage" src = "attractionspageimages/ferriswheel.jpg" width = "300" height = "300" alt = " large ferris wheel ride ">
             <div class = "ridedescription">
             <h2>Ferris Wheel</h2>
             <ul>
@@ -159,9 +197,16 @@
             <button class="TicketButton">Buy Tickets</button> </div>
 
             </div>
+           
+           
+           
+           
+<!--       Second Ride - WaterPark     -->
+
+           
        <div class = "ride">
 
-            <img class = "rideimage" src = "attraction2pageimages/waterpark.jpg" width = "300" height = "300" alt = "Waterpark amusement with kids playing and big blue water slide">
+            <img class = "rideimage" src = "attractionspageimages/waterpark.jpg" width = "300" height = "300" alt = "Waterpark amusement with kids playing and big blue water slide">
             <div class = "ridedescription">
             <h2>WaterPark</h2>
             <ul>
@@ -175,9 +220,14 @@
             <button class="TicketButton">Buy Tickets</button> </div>
 
             </div>
+           
+           
+           
+<!--       Third Ride - Bumper Cars    -->
+
        <div class = "ride">
 
-            <img class = "rideimage" src = "attraction2pageimages/bumpercars.jpg" width = "300" height = "300" alt = "Bumper cars ride with boy and man">
+            <img class = "rideimage" src = "attractionspageimages/bumpercars.jpg" width = "300" height = "300" alt = "Bumper cars ride with boy and man">
             <div class = "ridedescription">
             <h2>Bumper Cars</h2>
             <ul>
@@ -239,9 +289,9 @@
 			<!-- Fifth Card named Social media -->
 			<div id="social_media" class="block">
 				<h3>Social Media</h3>
-				<a href="#"><img src="attraction2pageimages/facebook.png" alt="Facebook Logo"></a>
-				<a href="#"><img src="attraction2pageimages/instagram.png" alt="Instagram Logo"></a>
-				<a href="#"><img src="attraction2pageimages/twitter.png" alt="Twitter Logo"></a>
+				<a href="#"><img src="attractionspageimages/facebook.png" alt="Facebook Logo"></a>
+				<a href="#"><img src="attractionspageimages/instagram.png" alt="Instagram Logo"></a>
+				<a href="#"><img src="attractionspageimages/twitter.png" alt="Twitter Logo"></a>
 			</div>
 		</div>
 		<p id="copyright">Copyright 1999-2022 by Team Awesome. All Rights Reserved.</p>
